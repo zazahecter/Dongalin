@@ -1,0 +1,245 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: lato;
+
+}
+nav{
+    padding: 20px;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+        
+
+}
+    
+.nav-links {
+        list-style: none;
+        display: flex;
+}
+
+.nav-links li {
+        margin-right: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    font-weight: 600px;
+}
+.active{ 
+    color: red;   
+    }
+a:hover{
+    color: red;
+}
+    
+.my-button {
+    background-color: red;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.my-button:hover{
+    background-attachment: #894Bf3;
+    color: #ffff;
+}
+.content{
+    padding: 20px;
+     background-image: url('./images/ship.jpg');
+    background-size: no-repeat;
+    background-position: center;
+    height: 400px;
+    color: #ffff;
+
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.about{
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+
+}
+p{
+    font-size: 16px;
+}
+.under{
+    border-radius: 8px;
+    background: red;
+    width: 180px;
+    height: 6px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+    
+.title{
+    color: red;
+}
+.black{
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 20px;  
+}
+
+.colu{
+    padding: 20px;
+}
+
+.container-logistic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.h4{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section1{
+    display: flex;
+    padding:20px;
+    background: #FFBF14;
+    height: 130px;
+    flex-shrink: 0;
+}
+
+.column2{
+    padding: 20px;
+    margin-left: auto;
+}
+
+.h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.form{
+    display: flex;
+    width: 621px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px 21px;
+    flex-wrap: wrap;
+}
+.form-control{
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #515151;
+    padding-left: 10px;
+}
+.message{
+    width: 621px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #515151;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* This sets the gap between child elements */
+}
+.flex {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.flex,h4 {
+    margin-bottom: 10px; /* Adjust the margin-bottom to move the h4 tag up */
+}
+.footer-logistic{
+    background: #000;
+    color: #fff;
+}
+.container-footer{
+    padding: 7px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
+.colospan,li{
+    align-items: center;
+    list-style: none;
+    margin-top: 12px;
+}
+.col-span{
+    padding: 20px;
+ }
+ .flexing {
+    display: inline-flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.mt-5{
+    margin-top: 12px;
+}
+.text-center{
+    text-align: center;
+}
+.bt{
+    margin-top: 20px;
+}
+
+/* Mobile styles for screens up to 767px width */
+@media only screen and (max-width: 767px) {
+.cap {
+        display: none;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+.button-container {
+    margin-top: 20px;
+}
+
+
+.container-logistic {
+    display: grid;
+    grid-template-columns: 1fr;
+        
+}
+.img{
+    width: 310px;
+    height: 205.556px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+span.h4{
+    margin-bottom: 20px;
+}
+.content{
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    }
+
+}
